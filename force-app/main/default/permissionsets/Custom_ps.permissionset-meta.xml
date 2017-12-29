@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Building__c.AmountOfPeople__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Custom ps</label>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Building__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <tabSettings>
+        <tab>Building__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
